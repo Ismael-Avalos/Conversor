@@ -1,13 +1,27 @@
-<h1 align="center"> #CHALLENGE 02 OracleONE/AluraLatam <h1>
-  <img src="https://github.com/Ismael-Avalos/Conversor/assets/156988387/24861813-7a88-4acc-a32b-e3571e922c7d">
-  <p>Segundo challenge Finalziado del curso Java orientado a objetos impartido por AluraLatam durante el programa OracleONE</p><br>
-  <h2>Funcionamiento</h2>
-  <p>El conversor de monedas muestra un bloque de texto con las distintas opciones a escoger por el usuario:</p><br>
-  ![Primer menú de opciones](https://github.com/Ismael-Avalos/Conversor/assets/156988387/6da34fa4-84ef-43ca-91b9-37d5e4e9ccc0)<br>
-  <p>Una vez seleccionada la operación que se desea realizar se valida que sea una opción válida entre 1 - 9 y que no sea texto:</p><br>
-  ![Validaciones en código](https://github.com/Ismael-Avalos/Conversor/assets/156988387/0837159b-5f3c-4b27-8888-3cd25a9d0973)
-  ![Validaciones en código](https://github.com/Ismael-Avalos/Conversor/assets/156988387/0c33b5a2-76de-4244-a972-da2d74c82e3f)<br>
-  <p>Si la opción es válida procede a pedir el monto a convertir, hace el cálculo y muestra el resultado, luego regresa al primer menú para poder seguir haceindo operaciones</p><br>
-  ![Resultado de la operación](https://github.com/Ismael-Avalos/Conversor/assets/156988387/a146df59-4296-4ce7-a449-e748218aeb5b)
+# Challenge #2 OracleONE/AluraLatam
 
-  <img src="https://avatars.githubusercontent.com/u/156988387?v=4" width=115><br><sub>Ismael Avalos</sub>
+### Descripción:
+Éste challenge consistió en crear un programa que permita al usuario escoger un tipo de conversión de monedas a través de un menú en la terminal, al escoger un tipo de conversión se procede a pedir una cantidad a convertir y se muestra el resultado de dicha conversión. Las conversiones se realizan con la ayuda de la API Exchange Rate.
+
+## Funcionalidades
+
+### Menú de opciones.
+El programa muestra un menú de opciones al ejecutarse:<br>
+![Primer menú](https://github.com/Ismael-Avalos/Conversor/assets/156988387/0bf09ed8-ff46-4175-9486-639ac6b00151)
+
+### Validación y manejo de excepción de texto.
+Una vez el usuario digita una opción el programa hace dos validaciones.
+Validación del rango de números especificados:
+![Validación](https://github.com/Ismael-Avalos/Conversor/assets/156988387/9771de7d-d10f-43df-a778-7daedbf4a045)<br>
+Manejo de excepcion en caso de ingresar texto:
+![Validación](https://github.com/Ismael-Avalos/Conversor/assets/156988387/fed31f02-e547-46c8-b023-4046dd392e00)<br>
+Si la opción es válida se solicita el monto a convertir, se devuelve el resultado y vuelve al primer menú para seguir haciendo conversiones.
+![Resultado](https://github.com/Ismael-Avalos/Conversor/assets/156988387/1641e26f-d7b6-445a-94fd-2301340e8a88)
+
+### Consulta a la API:
+![Consulta a la API](https://github.com/Ismael-Avalos/Conversor/assets/156988387/f50b459a-c88a-4ead-9548-eeed0811f33c)
+
+### Clase modelo:
+De tipo record.
+
+![Clase modelo](https://github.com/Ismael-Avalos/Conversor/assets/156988387/0822fb14-ee3e-45cf-927d-216fab554afc)
