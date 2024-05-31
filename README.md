@@ -1,5 +1,5 @@
 <h1 align="center"> #CHALLENGE 02 OracleONE/AluraLatam <h1>
-  ![Challenge-LOGO](https://github.com/Ismael-Avalos/Conversor/assets/156988387/24861813-7a88-4acc-a32b-e3571e922c7d)
+  <img src="https://github.com/Ismael-Avalos/Conversor/assets/156988387/24861813-7a88-4acc-a32b-e3571e922c7d">
   <p>Segundo challenge Finalziado del curso Java orientado a objetos impartido por AluraLatam durante el programa OracleONE</p><br>
   <h2>Funcionamiento</h2>
   <p>El conversor de monedas muestra un bloque de texto con las distintas opciones a escoger por el usuario:</p><br>
